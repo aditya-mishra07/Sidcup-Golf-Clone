@@ -42,3 +42,19 @@ video{
     object-fit: cover;
     position: fixed;
 }
+
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+#page1{
+    height:100vh;/*viewport height height of screen */
+    width:100%;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
